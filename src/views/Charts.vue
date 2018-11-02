@@ -1,33 +1,23 @@
 <template>
-  <div class="home">
+  <div class="charts">
     <div class="ui container">
         <div class="ui top attached segment">
             <h1>Mandarin Orchard</h1>
         </div>
         <div class="ui bottom attached tabular menu">
-            <a class="item active">
-              Transactions
+            <a class="item">
+              <router-link to="/">Transactions</router-link>
             </a>
             <a class="item">
               <router-link to="/insights">Insights</router-link>
             </a>
-            <a class="item">
-              <router-link to="/charts">Charts</router-link>
+            <a class="item active">
+              Charts
             </a>
         </div>
-        <h1>Begin</h1>
-        <TxSearch />
     </div>  
   </div>
 </template>
 
 <script>
-import TxSearch from '../components/TxSearch.vue'
-
-export default {
-  name: 'home',
-  components: {
-    TxSearch
-  }
-}
 </script>

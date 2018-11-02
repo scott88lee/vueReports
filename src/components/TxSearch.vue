@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div class="txsearch">
     <h1>{{ msg }}</h1>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'TxSearch',
   props: {
     msg: String,
   },
